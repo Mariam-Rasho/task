@@ -1,0 +1,35 @@
+.title,
+.description {
+    font-family: "Somar Sans";
+}
+
+.img {
+    position: absolute;
+    bottom: 60%;
+    left: 70%;
+    z-index: 100;
+}
+
+.blog {
+    background: linear-gradient(270deg, #F9F8ED 0.13%, rgba(249, 248, 237, 0.00) 99.87%);
+}
+ion-icon{
+    font-size: larger;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after,.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after  {
+    content: '';
+    display:none;
+}
+.contact{
+    background: #48674B;
+box-shadow: 10px -10px 50px 0px rgba(0, 0, 0, 0.30) inset;
+}
+.svg-contact svg{
+    position: absolute;
+    bottom: -192px;
+    right: -380px;
+    z-index: 0;
+}
+.text-contact{
+    z-index: 1;
+}
